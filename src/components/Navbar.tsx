@@ -1,7 +1,12 @@
 import React from 'react';
 
 const Navbar: React.FC = () => {
-    const showResMenu = () => document.getElementById("res-menu").classList.toggle("hidden");
+    const showResMenu = () => {
+        const resMenu = document.getElementById("res-menu");
+        if (resMenu) {
+            resMenu.classList.toggle("hidden");
+        }
+    };
   return (
     <>
         <nav className="hidden md:block w-full px-4 pt-1">
