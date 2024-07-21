@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Navbar: React.FC = () => {
-    const showResMenu = () => {
-        const resMenu = document.getElementById("res-menu");
-        if (resMenu) {
-            resMenu.classList.toggle("hidden");
-        }
-    };
+    // const showResMenu = () => {
+    //     const resMenu = document.getElementById("res-menu");
+    //     if (resMenu) {
+    //         resMenu.classList.toggle("hidden");
+    //     }
+    // };
   return (
     <>
     {/* For me in future, dont make a new porto instead use this one. rn i dont need links so i dont do responsive navbar. */}
