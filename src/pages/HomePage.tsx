@@ -40,15 +40,15 @@ const HomePage: React.FC = () => {
             <div className='my-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
               <div className='flex flex-col items-center relative justify-center'>
                 <img src="/sima.png" alt="SiMA" className='h-56 rounded-lg' />
-                <h1 className='text-2xl absolute top-[85px] bg-gray-800 p-2 rounded-lg'>SiMA</h1>
+                <a href='https://github.com/oliv-e/ProjectMasjid' className='text-2xl absolute top-[85px] bg-gray-800 p-2 rounded-lg'>SiMA</a>
               </div>
               <div className='flex flex-col items-center relative justify-center'>
                 <img src="/furnituremax.png" alt="FurnitureMax" className='h-56 rounded-lg' />
-                <h1 className='text-2xl absolute top-[85px] bg-gray-800 p-2 rounded-lg'>Furniture Max</h1>
+                <a href='https://github.com/oliv-e/Capstone1_BarangG2FS' className='text-2xl absolute top-[85px] bg-gray-800 p-2 rounded-lg'>Furniture Max</a>
               </div>
               <div className='flex flex-col items-center relative justify-center'>
                 <img src="/enggarkratom.png" alt="Enggar Kratom" className='h-56 rounded-lg' />
-                <h1 className='text-2xl absolute top-[85px] bg-gray-800 p-2 rounded-lg'>Enggar Kratom</h1>
+                <a href='https://github.com/oliv-e/en-kratom' className='text-2xl absolute top-[85px] bg-gray-800 p-2 rounded-lg'>Enggar Kratom</a>
               </div>
             </div>
         </div>

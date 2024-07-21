@@ -37,11 +37,12 @@ const Navbar: React.FC = () => {
                     オリバー
                 </h1>
                 <span className='block md:hidden'></span>
-                <ul className="flex items-center me-8 md:me-0 gap-4">
+                <ul className="flex items-center me-8 md:me-2 gap-4">
                     {/* <li><a className="font-edu text-xl text-gray-400 font-bold">HOME</a></li>
                     <li><a className="font-edu text-xl text-gray-400 font-bold">BLOG</a></li>
                     <li><a className="font-edu text-xl text-gray-400 font-bold">TO DO LIST</a></li> */}
-                    <li><a href="#" className="font-edu text-xl text-[#30475E] font-bold hover:animate-pulse">CV</a></li>
+                    <li><a href="/" className="font-edu text-xl text-[#30475E] font-bold hover:animate-pulse">HOME</a></li>
+                    <li><a href="/cv" className="font-edu text-xl text-[#30475E] font-bold hover:animate-pulse">CV</a></li>
                 </ul>
                 {/* <button className="block md:hidden" onClick={showResMenu}>
                     <span className="icon-[mdi--menu] align-middle w-6 h-6 animate-jump-in animate-once"></span>
