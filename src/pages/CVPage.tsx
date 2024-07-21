@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 const CVPage: React.FC = () => {
     const [lang, setLang] = useState<'en' | 'id'>('en');
 
-    const [biodata, setBiodata] = useState({
+    const biodata = {
         en: {
             bio: 'Informatics Engineering Student at State Polytechnic of Pontianak',
             education: 'EDUCATION',            
@@ -126,7 +126,7 @@ const CVPage: React.FC = () => {
             ],
             contact: 'KONTAK',
         },
-    });
+    };
 
     const toggleLang = () => {
         setLang(lang === 'en' ? 'id' : 'en');
